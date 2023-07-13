@@ -264,7 +264,7 @@ h2 {
 }
 
 .proyecto a img {
-    width: 250px;
+    width: 85%;
 }
 
 .button{
@@ -272,17 +272,17 @@ h2 {
     text-align: center;
 }
 
+.proyecto{
+    padding-bottom: 1em;
+}
+
 #behance:hover {
     background-color: #1F9B00;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .grid-container-portfolio {
         grid-template-columns: 50% 50%;
-    }
-
-    .proyecto a img {
-        width: 9em;
     }
 }
 
