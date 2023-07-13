@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: black !important;
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto';
@@ -187,13 +187,6 @@ button a {
     margin-bottom: 40px;
 }
 
-#intro a {
-    background-color: black;
-    padding: 5px;
-    border: 2px solid white;
-    text-decoration: none;
-    color: white;
-}
 
 #intro a:hover {
     background-color: #1F9B00;
@@ -274,15 +267,10 @@ h2 {
     width: 250px;
 }
 
-#behance {
-    margin-top: 100px;
-    background-color: black;
-    padding: 5px;
-    border: 2px solid white;
-    text-decoration: none;
-    color: white;
+.button{
+    width: 100%;
+    text-align: center;
 }
-
 
 #behance:hover {
     background-color: #1F9B00;
