@@ -100,6 +100,12 @@ main {
     margin-bottom: 100px;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
+
 h2 {
     font-weight: 800;
     margin-bottom: 70px;
@@ -128,11 +134,7 @@ button a {
 
 
 
-#foto {
-    width: 50%;
-    display: inline;
-    float: left;
-}
+
 
 #foto img {
     width: 300px;
