@@ -256,9 +256,10 @@ h2{
     text-align: left;
 }
 
-.proyecto{
-    width: 33%;
-    display: inline;
+.grid-container-portfolio{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .proyecto:hover{
