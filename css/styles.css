@@ -58,6 +58,19 @@ li {
     list-style: none;
 }
 
+@media (max-width: 600px) {
+    #menu ul {
+       display: block;
+        float: none;
+    }
+
+    header{
+        display: block;
+        height: inherit;
+    }
+
+  }
+
 /*                            Footer                                    */
 
 footer {
@@ -87,6 +100,7 @@ footer {
     margin-bottom: 10px;
     text-decoration: none;
 }
+
 
 
 
@@ -129,6 +143,15 @@ button a {
     color: white;
 }
 
+@media (max-width: 600px) {
+   
+    .grid-container{
+        display: block;
+        grid-template-columns: 100%;
+        column-gap: 0;
+    }
+  }
+
 
 /*                            INDEX                                    */
 
@@ -137,7 +160,7 @@ button a {
 
 
 #foto img {
-    width: 300px;
+    width: 15em;
     float: right;
     margin-right: 70px;
 }
