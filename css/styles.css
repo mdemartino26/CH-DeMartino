@@ -60,16 +60,16 @@ li {
 
 @media (max-width: 600px) {
     #menu ul {
-       display: block;
+        display: block;
         float: none;
     }
 
-    header{
-        display: block;
+    header {
         height: inherit;
+        text-align: center;
     }
 
-  }
+}
 
 /*                            Footer                                    */
 
@@ -86,16 +86,16 @@ footer {
     justify-content: center;
 }
 
-#contacto{
+#contacto {
     text-align: center;
     padding: 10px;
 }
 
-#contacto a img{
+#contacto a img {
     width: 25px;
 }
 
- .btncontacto{
+.btncontacto {
     margin-top: 10px;
     margin-bottom: 10px;
     text-decoration: none;
@@ -114,7 +114,7 @@ main {
     margin-bottom: 100px;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 10px;
@@ -144,13 +144,17 @@ button a {
 }
 
 @media (max-width: 600px) {
-   
-    .grid-container{
+
+    .grid-container {
         display: block;
         grid-template-columns: 100%;
         column-gap: 0;
     }
-  }
+
+    #intro{
+        text-align: center;
+    }
+}
 
 
 /*                            INDEX                                    */
@@ -248,21 +252,21 @@ hr {
 /*                            PORTFOLIO                                   */
 
 
-#portfolio1{
+#portfolio1 {
     text-align: center;
 }
 
-h2{
+h2 {
     text-align: left;
 }
 
-.grid-container-portfolio{
+.grid-container-portfolio {
     padding: 1em;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
-.proyecto:hover{
+.proyecto:hover {
     opacity: 60%;
 }
 
@@ -270,7 +274,7 @@ h2{
     width: 250px;
 }
 
-#behance{
+#behance {
     margin-top: 100px;
     background-color: black;
     padding: 5px;
@@ -280,26 +284,37 @@ h2{
 }
 
 
-#behance:hover{
+#behance:hover {
     background-color: #1F9B00;
 }
+
+@media (max-width: 600px) {
+    .grid-container-portfolio {
+        grid-template-columns: 50% 50%;
+    }
+
+    .proyecto a img {
+        width: 9em;
+    }
+}
+
 
 
 /*                            CURIOSIDADES                                   */
 
 
 
-.preguntas{
+.preguntas {
     display: inline;
     width: 33%;
     float: left;
 }
 
-.preguntas ul{
+.preguntas ul {
     padding: 0;
 }
 
-#faqs{
+#faqs {
     width: 100%;
     display: inline-block;
     text-align: center;
