@@ -1,0 +1,279 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+/*                            Header                                    */
+header {
+    background-color: #272222;
+    color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 10px 3px #2c2c2c;
+    z-index: 1;
+    height: 15vh;
+}
+
+h1{
+    display: inline;
+}
+
+#logo {
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    margin-left: 20px;
+    display: inline;
+}
+
+#menu ul li {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+#menu ul {
+    margin-right: 20px;
+    float: right;
+
+}
+
+#menu {
+    display: inline;
+    float: right;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    background-color: green;
+}
+
+li {
+    list-style: none;
+}
+
+/*                            Footer                                    */
+
+footer {
+    background-color: #272222;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#contacto{
+    text-align: center;
+    padding: 10px;
+}
+
+#contacto a img{
+    width: 25px;
+}
+
+ .btncontacto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+
+/*                            Main                                    */
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 73px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 70px;
+    text-align: left;
+}
+
+button {
+    background-color: black;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-color: green;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*                            INDEX                                    */
+
+
+
+#foto {
+    width: 50%;
+    display: inline;
+    float: left;
+}
+
+#foto img {
+    width: 300px;
+    float: right;
+    margin-right: 70px;
+}
+
+#intro {
+    color: white;
+    display: inline;
+}
+
+#intro h1 {
+    font-size: 35px;
+}
+
+#intro h1 strong {
+    font-size: 50px;
+    color: #1F9B00;
+}
+
+#intro p {
+    margin-bottom: 40px;
+}
+
+#intro a {
+    background-color: black;
+    padding: 5px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+#intro a:hover {
+    background-color: #1F9B00;
+}
+
+
+
+
+/*                            Educacion                                    */
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#sectionEd {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.data {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    width: 77%;
+}
+
+.dataImagen {
+    display: inline;
+}
+
+
+.educacion img {
+    width: 130px;
+    height: 130px;
+}
+
+/*                            EXPERIENCIA                                    */
+
+#experiencia {
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+}
+
+.exp {
+    display: inline;
+    float: left;
+    width: 33%;
+}
+
+.exp ul li {
+    list-style: circle;
+}
+
+/*                            PORTFOLIO                                   */
+
+
+#portfolio1{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+.proyecto{
+    width: 33%;
+    display: inline;
+}
+
+.proyecto:hover{
+    opacity: 60%;
+}
+
+.proyecto a img {
+    width: 250px;
+}
+
+#behance{
+    margin-top: 100px;
+    background-color: black;
+    padding: 5px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+
+#behance:hover{
+    background-color: #1F9B00;
+}
+
+
+/*                            CURIOSIDADES                                   */
+
+
+
+.preguntas{
+    display: inline;
+    width: 33%;
+    float: left;
+}
+
+.preguntas ul{
+    padding: 0;
+}
+
+#faqs{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
