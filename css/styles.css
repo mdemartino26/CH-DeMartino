@@ -215,21 +215,43 @@ hr {
     margin: 0 auto;
 }
 
-.data {
-    display: inline;
-    float: left;
-    margin-left: 10px;
-    width: 77%;
-}
-
 .dataImagen {
     display: inline;
 }
 
+.educacion{
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
 
 .educacion img {
-    width: 130px;
-    height: 130px;
+    width: 5em;
+}
+
+.dataImagenTop {
+    display: none;
+}
+
+@media (max-width: 768px) {
+  .dataImagen{
+    display: none;
+  }
+  .dataImagenTop{
+    display: block;
+    text-align: center;
+  }
+
+  .educacion{
+    display: block;
+  }
+  .data{
+    text-align: center;
+  }
+
+
 }
 
 /*                            EXPERIENCIA                                    */
@@ -238,12 +260,6 @@ hr {
     margin: 0 auto;
     width: 100%;
     float: left;
-}
-
-.exp {
-    display: inline;
-    float: left;
-    width: 33%;
 }
 
 .exp ul li {
