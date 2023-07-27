@@ -262,8 +262,20 @@ hr {
     float: left;
 }
 
+#todoExp{
+    display: flex;
+    justify-content: space-around;
+}
+
 .exp ul li {
     list-style: circle;
+}
+
+
+@media (max-width: 768px) {
+    #todoExp{
+        display: block;
+    }
 }
 
 
