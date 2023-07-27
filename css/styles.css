@@ -329,18 +329,23 @@ h2 {
 
 
 
-.preguntas {
-    display: inline;
-    width: 33%;
-    float: left;
+#faqs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .preguntas ul {
     padding: 0;
 }
 
-#faqs {
-    width: 100%;
-    display: inline-block;
-    text-align: center;
+
+@media (max-width: 760px) {
+    #faqs{
+        display: block;
+    }
 }
+
