@@ -342,10 +342,20 @@ h2 {
     padding: 0;
 }
 
+#botonesToggle{
+    display: none;
+}
+
+#botonesToggle .row{
+    display: block;
+}
+
 
 @media (max-width: 760px) {
     #faqs{
+        display: none;
+    }
+    #botonesToggle{
         display: block;
     }
 }
-
