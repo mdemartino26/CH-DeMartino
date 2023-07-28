@@ -14,6 +14,10 @@ header {
     box-shadow: 0px 0px 10px 3px #2c2c2c;
     z-index: 1;
     height: 15vh;
+    
+}
+
+#logoNav{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,7 +32,7 @@ header {
     margin-left: 20px;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
 }
 
@@ -61,17 +65,36 @@ li {
     list-style: none;
 }
 
+#hambBut {
+    display: none;
+}
+
+
 @media (max-width: 760px) {
-   
+
     header {
         height: inherit;
         text-align: center;
         flex-flow: column;
     }
 
-    header #menu{
+    header #menu {
+        display: none;
+    }
+
+    #hambBut {
+        display: block;
+    }
+
+    .p-4 ul{
+        padding-left: 0;
+    }
+
+    #logoNav{
         display: flex;
-        flex-direction: row;
+        width: 100%;
+        flex-flow: wrap;
+        justify-content: space-around;
     }
 
 }
@@ -141,7 +164,7 @@ h2 {
         column-gap: 0;
     }
 
-    #intro{
+    #intro {
         text-align: center;
     }
 }
@@ -182,7 +205,7 @@ h2 {
     background-color: #1F9B00;
 }
 
-#form-contacto{
+#form-contacto {
     padding-top: 8em;
     width: 50%;
     margin: 0 auto;
@@ -194,10 +217,11 @@ h2 {
         float: none;
         margin-right: 0;
     }
-    #foto{
+
+    #foto {
         text-align: center;
     }
-   
+
 }
 
 
@@ -219,7 +243,7 @@ hr {
     display: inline;
 }
 
-.educacion{
+.educacion {
     display: flex;
     width: 100%;
     flex-flow: wrap;
@@ -236,20 +260,22 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .dataImagen{
-    display: none;
-  }
-  .dataImagenTop{
-    display: block;
-    text-align: center;
-  }
+    .dataImagen {
+        display: none;
+    }
 
-  .educacion{
-    display: block;
-  }
-  .data{
-    text-align: center;
-  }
+    .dataImagenTop {
+        display: block;
+        text-align: center;
+    }
+
+    .educacion {
+        display: block;
+    }
+
+    .data {
+        text-align: center;
+    }
 
 
 }
@@ -262,7 +288,7 @@ hr {
     float: left;
 }
 
-#todoExp{
+#todoExp {
     display: flex;
     justify-content: space-between;
 }
@@ -273,7 +299,7 @@ hr {
 
 
 @media (max-width: 768px) {
-    #todoExp{
+    #todoExp {
         display: block;
     }
 }
@@ -304,12 +330,12 @@ h2 {
     width: 85%;
 }
 
-.button{
+.button {
     width: 100%;
     text-align: center;
 }
 
-.proyecto{
+.proyecto {
     padding-bottom: 1em;
 }
 
@@ -329,7 +355,7 @@ h2 {
 
 
 
-#faqs{
+#faqs {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -342,25 +368,26 @@ h2 {
     padding: 0;
 }
 
-#botonesToggle{
+#botonesToggle {
     display: none;
     text-align: center;
 }
 
-#botonesToggle .row{
+#botonesToggle .row {
     display: block;
 }
 
 #botonesToggle button {
-   margin-top: 2em;
+    margin-top: 2em;
 }
 
 
 @media (max-width: 760px) {
-    #faqs{
+    #faqs {
         display: none;
     }
-    #botonesToggle{
+
+    #botonesToggle {
         display: block;
     }
 }
