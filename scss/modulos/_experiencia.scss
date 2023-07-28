@@ -1,0 +1,16 @@
+#experiencia {
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+}
+#todoExp {
+	display: flex;
+	justify-content: space-between;
+}
+.exp {
+	ul {
+		li {
+			list-style: circle;
+		}
+	}
+}

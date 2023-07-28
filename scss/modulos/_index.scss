@@ -1,0 +1,45 @@
+$color_1: white;
+$color_2: #1F9B00;
+$background-color_1: #1F9B00;
+
+#foto {
+	img {
+		width: 15em;
+		float: right;
+		margin-right: 70px;
+	}
+}
+#intro {
+	color: $color_1;
+	display: inline;
+	h1 {
+		font-size: 2em;
+		strong {
+			font-size: 3rem;
+			color: $color_2;
+		}
+	}
+	p {
+		margin-bottom: 40px;
+	}
+	a {
+		&:hover {
+			background-color: $background-color_1;
+		}
+	}
+}
+#form-contacto {
+	padding-top: 8em;
+	width: 50%;
+	margin: 0 auto;
+}
+@media (max-width: 760px) {
+	#foto {
+		img {
+			width: 15em;
+			float: none;
+			margin-right: 0;
+		}
+		text-align: center;
+	}
+}

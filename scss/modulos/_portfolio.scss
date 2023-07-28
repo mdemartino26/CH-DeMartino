@@ -1,0 +1,38 @@
+$background-color_1: #1F9B00;
+
+#portfolio1 {
+	text-align: center;
+}
+h2 {
+	text-align: left;
+}
+.grid-container-portfolio {
+	padding: 1em;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+.proyecto {
+	&:hover {
+		opacity: 60%;
+	}
+	a {
+		img {
+			width: 85%;
+		}
+	}
+	padding-bottom: 1em;
+}
+.button {
+	width: 100%;
+	text-align: center;
+}
+#behance {
+	&:hover {
+		background-color: $background-color_1;
+	}
+}
+@media (max-width: 768px) {
+	.grid-container-portfolio {
+		grid-template-columns: 50% 50%;
+	}
+}

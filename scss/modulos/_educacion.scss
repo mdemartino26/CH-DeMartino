@@ -1,0 +1,39 @@
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+#sectionEd {
+	width: 70%;
+	margin: 0 auto;
+}
+.dataImagen {
+	display: inline;
+}
+.educacion {
+	display: flex;
+	width: 100%;
+	flex-flow: wrap;
+	justify-content: space-between;
+	img {
+		width: 5em;
+	}
+}
+.dataImagenTop {
+	display: none;
+}
+@media (max-width: 768px) {
+	.dataImagen {
+		display: none;
+	}
+	.dataImagenTop {
+		display: block;
+		text-align: center;
+	}
+	.educacion {
+		display: block;
+	}
+	.data {
+		text-align: center;
+	}
+}

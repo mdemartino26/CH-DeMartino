@@ -1,393 +1,312 @@
-body {
-    background-color: black !important;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto';
-}
-
 /*                            Header                                    */
-header {
-    background-color: #272222;
-    color: white;
-    position: sticky;
-    top: 0;
-    box-shadow: 0px 0px 10px 3px #2c2c2c;
-    z-index: 1;
-    height: 15vh;
-    
+/*                            Footer                                    */
+/*                            Main                                    */
+/*                            INDEX                                    */
+/*                            Educacion                                    */
+/*                            EXPERIENCIA                                    */
+/*                            PORTFOLIO                                   */
+/*                            CURIOSIDADES                                   */
+body {
+  background-color: black !important;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto";
 }
 
-#logoNav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: space-around;
+header {
+  background-color: #272222;
+  color: white;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 10px 3px #2c2c2c;
+  z-index: 1;
+  height: 15vh;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header a:hover {
+  background-color: green;
+}
+
+#logoNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-around;
 }
 
 #logo {
-    margin: 0;
-    padding: 10px;
-    margin-left: 20px;
+  margin: 0;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 h1 {
-    font-size: 2.5rem;
-}
-
-#menu ul li {
-    vertical-align: middle;
-    margin-left: 25px;
+  font-size: 2.5rem;
 }
 
 #menu ul {
-    padding-left: 0;
-    float: right;
-    display: flex;
-    width: 100%;
-    flex-flow: wrap;
-    justify-content: space-around;
-
+  padding-left: 0;
+  float: right;
+  display: flex;
+  width: 100%;
+  flex-flow: wrap;
+  justify-content: space-around;
 }
-
-
-header a {
-    text-decoration: none;
-    color: white;
-}
-
-header a:hover {
-    background-color: green;
+#menu ul li {
+  vertical-align: middle;
+  margin-left: 25px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 #hambBut {
-    display: none;
+  display: none;
 }
-
-
-@media (max-width: 760px) {
-
-    header {
-        height: inherit;
-        text-align: center;
-        flex-flow: column;
-    }
-
-    header #menu {
-        display: none;
-    }
-
-    #hambBut {
-        display: block;
-    }
-
-    .p-4 ul{
-        padding-left: 0;
-    }
-
-    #logoNav{
-        display: flex;
-        width: 100%;
-        flex-flow: wrap;
-        justify-content: space-around;
-    }
-
-}
-
-/*                            Footer                                    */
 
 footer {
-    background-color: #272222;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    height: 10vh;
-    margin-top: 100px;
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+  background-color: #272222;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 #contacto {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
-
 #contacto a img {
-    width: 25px;
+  width: 25px;
 }
 
 .btncontacto {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
 
-
-
-
-
-/*                            Main                                    */
-
 main {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 73px;
-    color: white;
-    margin-bottom: 100px;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 73px;
+  color: white;
+  margin-bottom: 100px;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
 }
 
 h2 {
-    font-weight: 800;
-    margin-bottom: 70px;
-    text-align: left;
+  font-weight: 800;
+  margin-bottom: 70px;
+  text-align: left;
+  text-align: left;
 }
-
-
-
-@media (max-width: 760px) {
-
-    .grid-container {
-        grid-template-columns: 100%;
-        column-gap: 0;
-    }
-
-    #intro {
-        text-align: center;
-    }
-}
-
-
-/*                            INDEX                                    */
-
-
-
-
 
 #foto img {
-    width: 15em;
-    float: right;
-    margin-right: 70px;
+  width: 15em;
+  float: right;
+  margin-right: 70px;
 }
 
 #intro {
-    color: white;
-    display: inline;
+  color: white;
+  display: inline;
 }
-
 #intro h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
-
 #intro h1 strong {
-    font-size: 3rem;
-    color: #1F9B00;
+  font-size: 3rem;
+  color: #1F9B00;
 }
-
 #intro p {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
-
-
 #intro a:hover {
-    background-color: #1F9B00;
+  background-color: #1F9B00;
 }
 
 #form-contacto {
-    padding-top: 8em;
-    width: 50%;
-    margin: 0 auto;
+  padding-top: 8em;
+  width: 50%;
+  margin: 0 auto;
 }
-
-@media (max-width: 760px) {
-    #foto img {
-        width: 15em;
-        float: none;
-        margin-right: 0;
-    }
-
-    #foto {
-        text-align: center;
-    }
-
-}
-
-
-
-
-/*                            Educacion                                    */
 
 hr {
-    margin-top: 20px;
-    margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 #sectionEd {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .dataImagen {
-    display: inline;
+  display: inline;
 }
 
 .educacion {
-    display: flex;
-    width: 100%;
-    flex-flow: wrap;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  flex-flow: wrap;
+  justify-content: space-between;
 }
-
-
 .educacion img {
-    width: 5em;
+  width: 5em;
 }
 
 .dataImagenTop {
-    display: none;
+  display: none;
 }
-
-@media (max-width: 768px) {
-    .dataImagen {
-        display: none;
-    }
-
-    .dataImagenTop {
-        display: block;
-        text-align: center;
-    }
-
-    .educacion {
-        display: block;
-    }
-
-    .data {
-        text-align: center;
-    }
-
-
-}
-
-/*                            EXPERIENCIA                                    */
 
 #experiencia {
-    margin: 0 auto;
-    width: 100%;
-    float: left;
+  margin: 0 auto;
+  width: 100%;
+  float: left;
 }
 
 #todoExp {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .exp ul li {
-    list-style: circle;
+  list-style: circle;
 }
-
-
-@media (max-width: 768px) {
-    #todoExp {
-        display: block;
-    }
-}
-
-
-/*                            PORTFOLIO                                   */
-
 
 #portfolio1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: left;
+  text-align: center;
 }
 
 .grid-container-portfolio {
-    padding: 1em;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-}
-
-.proyecto:hover {
-    opacity: 60%;
-}
-
-.proyecto a img {
-    width: 85%;
-}
-
-.button {
-    width: 100%;
-    text-align: center;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
 .proyecto {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
+}
+.proyecto:hover {
+  opacity: 60%;
+}
+.proyecto a img {
+  width: 85%;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
 }
 
 #behance:hover {
-    background-color: #1F9B00;
+  background-color: #1F9B00;
 }
-
-@media (max-width: 768px) {
-    .grid-container-portfolio {
-        grid-template-columns: 50% 50%;
-    }
-}
-
-
-
-/*                            CURIOSIDADES                                   */
-
-
 
 #faqs {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .preguntas ul {
-    padding: 0;
+  padding: 0;
 }
 
 #botonesToggle {
-    display: none;
-    text-align: center;
+  display: none;
+  text-align: center;
 }
-
 #botonesToggle .row {
-    display: block;
+  display: block;
 }
-
 #botonesToggle button {
-    margin-top: 2em;
+  margin-top: 2em;
 }
-
 
 @media (max-width: 760px) {
-    #faqs {
-        display: none;
-    }
-
-    #botonesToggle {
-        display: block;
-    }
+  header {
+    height: inherit;
+    text-align: center;
+    flex-flow: column;
+  }
+  header #menu {
+    display: none;
+  }
+  #hambBut {
+    display: block;
+  }
+  .p-4 ul {
+    padding-left: 0;
+  }
+  #logoNav {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+  .grid-container {
+    grid-template-columns: 100%;
+    column-gap: 0;
+  }
+  #intro {
+    text-align: center;
+  }
+  #foto {
+    text-align: center;
+  }
+  #foto img {
+    width: 15em;
+    float: none;
+    margin-right: 0;
+  }
+  #faqs {
+    display: none;
+  }
+  #botonesToggle {
+    display: block;
+  }
 }
+@media (max-width: 768px) {
+  .dataImagen {
+    display: none;
+  }
+  .dataImagenTop {
+    display: block;
+    text-align: center;
+  }
+  .educacion {
+    display: block;
+  }
+  .data {
+    text-align: center;
+  }
+  #todoExp {
+    display: block;
+  }
+  .grid-container-portfolio {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

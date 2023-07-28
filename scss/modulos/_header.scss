@@ -1,0 +1,56 @@
+$color_1: white;
+$background-color_1: #272222;
+$background-color_2: green;
+
+header {
+	background-color: $background-color_1;
+	color: $color_1;
+	position: sticky;
+	top: 0;
+	box-shadow: 0px 0px 10px 3px #2c2c2c;
+	z-index: 1;
+	height: 15vh;
+	a {
+		text-decoration: none;
+		color: $color_1;
+		&:hover {
+			background-color: $background-color_2;
+		}
+	}
+}
+#logoNav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 100%;
+	justify-content: space-around;
+}
+#logo {
+	margin: 0;
+	padding: 10px;
+	margin-left: 20px;
+}
+h1 {
+	font-size: 2.5rem;
+}
+#menu {
+	ul {
+		li {
+			vertical-align: middle;
+			margin-left: 25px;
+		}
+		padding-left: 0;
+		float: right;
+		display: flex;
+		width: 100%;
+		flex-flow: wrap;
+		justify-content: space-around;
+	}
+}
+li {
+	list-style: none;
+}
+#hambBut {
+	display: none;
+}
