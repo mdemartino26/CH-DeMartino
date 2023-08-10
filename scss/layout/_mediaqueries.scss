@@ -1,11 +1,13 @@
 
 @media (max-width: 760px) {
 	#faqs {
-		display: none;
+		display: block !important;
 	}
-	#botonesToggle {
-		display: block;
+
+	.preguntas{
+		margin: 0 auto;
 	}
+
 	#foto {
 		img {
 			width: 15em;
