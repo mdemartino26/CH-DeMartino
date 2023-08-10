@@ -1,10 +1,13 @@
-@import "./modulos/header";
-@import "./modulos/main";
-@import "./modulos/index";
-@import "./modulos/footer";
-@import "./modulos/body";
-@import "./modulos/educacion";
-@import "./modulos/portfolio";
-@import "./modulos/experiencia";
-@import "./modulos/curiosidades";
-@import "./modulos/mediaqueries";
+@import "./base/reset";
+@import "./layout/body";
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+@import "./pages/index";
+@import "./pages/educacion";
+@import "./pages/portfolio";
+@import "./pages/experiencia";
+@import "./pages/curiosidades";
+@import "./pages/mediaqueries";
