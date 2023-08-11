@@ -34,7 +34,11 @@ h6{
 	font-style: italic;
 }
 
+@mixin threed_button($color){
+
+}
 .button {
 	width: 100%;
 	text-align: center;
+	@include threed_button(#eee);
 }

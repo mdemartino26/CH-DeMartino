@@ -6,9 +6,12 @@
 @import "./layout/footer";
 @import "./layout/mediaqueries";
 
+@import "./components/botones";
+
 @import "./pages/index";
 @import "./pages/educacion";
 @import "./pages/portfolio";
 @import "./pages/experiencia";
 @import "./pages/curiosidades";
 
+@import "./utilities/mixins"

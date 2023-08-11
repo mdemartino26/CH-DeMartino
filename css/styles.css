@@ -216,6 +216,11 @@ footer {
     text-align: center;
   }
 }
+.button {
+  width: 100%;
+  text-align: center;
+}
+
 #foto img {
   width: 15em;
   float: right;
