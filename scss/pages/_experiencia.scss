@@ -7,11 +7,14 @@
 	display: flex;
 	justify-content: space-between;
 	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
+
 .exp {
 	ul {
 		li {
 			list-style: circle;
+			font-size: .75rem !important;
 		}
 	}
 }

@@ -185,7 +185,10 @@ footer {
     grid-template-columns: 50% 50%;
   }
   #todoExp {
-    display: block;
+    display: block !important;
+  }
+  .exp {
+    margin: 0 auto;
   }
   .dataImagen {
     display: none;
@@ -327,10 +330,12 @@ hr {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .exp ul li {
   list-style: circle;
+  font-size: 0.75rem !important;
 }
 
 #faqs {
