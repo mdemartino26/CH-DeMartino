@@ -1,4 +1,4 @@
-$color_1: white;
+@import "../utilities/variables";
 
 main {
 	margin: 0 auto;
@@ -21,7 +21,6 @@ h2 {
 }
 
 .typewriter {
-	color: #fff;
 	overflow: hidden; /* No se ve el texto hasta el fin de la animacion*/
 	border-right: .1em solid; 
 	margin: 0 auto;
@@ -38,7 +37,7 @@ h2 {
 
   @keyframes palito {
 	from, to { border-color: transparent }
-	50% { border-color: #41c50c }
+	50% { border-color: $color_2 }
   }
 
 h3{

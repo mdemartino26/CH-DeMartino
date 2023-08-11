@@ -93,7 +93,6 @@ h2 {
 }
 
 .typewriter {
-  color: #fff;
   overflow: hidden; /* No se ve el texto hasta el fin de la animacion*/
   border-right: 0.1em solid;
   margin: 0 auto;
@@ -113,7 +112,7 @@ h2 {
     border-color: transparent;
   }
   50% {
-    border-color: #41c50c;
+    border-color: #1F9B00;
   }
 }
 h3 {
@@ -272,7 +271,7 @@ footer {
   margin-bottom: 40px;
 }
 #intro a:hover {
-  background-color: #1F9B00;
+  background-color: #272222;
 }
 
 #indexMain {
@@ -353,7 +352,7 @@ hr {
 }
 
 #behance:hover {
-  background-color: #1F9B00;
+  background-color: #272222;
 }
 
 @media (max-width: 768px) {
@@ -361,12 +360,6 @@ hr {
     grid-template-columns: 50% 50%;
   }
 }
-#experiencia {
-  margin: 0 auto;
-  width: 100%;
-  float: left;
-}
-
 #todoExp {
   display: flex;
   justify-content: space-between;
