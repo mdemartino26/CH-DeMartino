@@ -20,6 +20,27 @@ h2 {
 	text-decoration: underline;
 }
 
+.typewriter {
+	color: #fff;
+	overflow: hidden; /* No se ve el texto hasta el fin de la animacion*/
+	border-right: .1em solid; 
+	margin: 0 auto;
+	animation: 
+	escribiendo 1.5s steps(30, end),
+	palito .75s step-end infinite;
+  }
+  
+
+  @keyframes escribiendo {
+	from { width: 0 }
+	to { width: 100% }
+  }
+
+  @keyframes palito {
+	from, to { border-color: transparent }
+	50% { border-color: #41c50c }
+  }
+
 h3{
 	font-size: 1.5rem !important;
 	font-weight: bold !important;
