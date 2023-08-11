@@ -6,6 +6,8 @@ HTML
 CSS
 Sass
 
+Frameworks prototipados: https://www.figma.com/file/c0Wzb6tTagsRglqNyyYxzn/Wireframes?type=design&node-id=16%3A212&t=VijSkeYyYphUel03-1
+
 
 Contenido del Repositorio
 El repositorio se organiza de la siguiente manera:
