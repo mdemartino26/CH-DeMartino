@@ -160,6 +160,9 @@ footer {
   #faqs {
     display: block !important;
   }
+  .exp {
+    margin: 0 auto;
+  }
   .preguntas {
     margin: 0 auto;
   }
@@ -200,6 +203,9 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  h2 {
+    font-size: 2rem !important;
+  }
   #indexMain {
     margin-top: 1rem !important;
   }
@@ -217,9 +223,6 @@ footer {
   }
   #todoExp {
     display: block !important;
-  }
-  .exp {
-    margin: 0 auto;
   }
   .dataImagen {
     display: none;
@@ -399,25 +402,19 @@ hr {
 }
 
 .exp1 {
-  margin: 0 auto;
   width: 100%;
-  float: left;
   background-color: green !important;
   color: white !important;
 }
 
 .exp2 {
-  margin: 0 auto;
   width: 100%;
-  float: left;
   background-color: white !important;
   color: green !important;
 }
 
 .exp3 {
-  margin: 0 auto;
   width: 100%;
-  float: left;
   background-color: green !important;
   color: white !important;
 }

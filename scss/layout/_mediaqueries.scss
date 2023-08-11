@@ -4,6 +4,10 @@
 		display: block !important;
 	}
 
+	.exp{
+		margin: 0 auto;
+	}
+
 	.preguntas{
 		margin: 0 auto;
 	}
@@ -47,6 +51,9 @@
 	}
 }
 @media (max-width: 768px) {
+	h2{
+		font-size: 2rem !important;
+	}
 	#indexMain{
 		margin-top: 1rem !important;
 	}
@@ -66,9 +73,7 @@
 	#todoExp {
 		display: block !important;
 	}
-	.exp{
-		margin: 0 auto;
-	}
+
 	.dataImagen {
 		display: none;
 	}
