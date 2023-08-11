@@ -181,6 +181,18 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  #indexMain {
+    margin-top: 1rem !important;
+  }
+  #intro {
+    margin-top: 1rem;
+  }
+  #foto img {
+    width: 10em !important;
+  }
+  #intro h1 strong {
+    font-size: 2rem !important;
+  }
   .grid-container-portfolio {
     grid-template-columns: 50% 50%;
   }
