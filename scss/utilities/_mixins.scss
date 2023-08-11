@@ -1,0 +1,21 @@
+
+@mixin experiencias($bg, $text){
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+    background-color: $bg !important;
+    color: $text !important;
+}
+
+
+.exp1{
+    @include experiencias(green, white);
+}
+
+.exp2{
+    @include experiencias(white, green);
+}
+
+.exp3{
+    @include experiencias(green, white);
+}

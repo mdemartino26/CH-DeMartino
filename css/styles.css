@@ -405,4 +405,28 @@ hr {
   margin-top: 2em;
 }
 
+.exp1 {
+  margin: 0 auto;
+  width: 100%;
+  float: left;
+  background-color: green !important;
+  color: white !important;
+}
+
+.exp2 {
+  margin: 0 auto;
+  width: 100%;
+  float: left;
+  background-color: white !important;
+  color: green !important;
+}
+
+.exp3 {
+  margin: 0 auto;
+  width: 100%;
+  float: left;
+  background-color: green !important;
+  color: white !important;
+}
+
 /*# sourceMappingURL=styles.css.map */
