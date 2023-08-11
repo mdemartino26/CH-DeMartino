@@ -352,10 +352,6 @@ hr {
   width: 85%;
 }
 
-#behance:hover {
-  background-color: #2c2c2c;
-}
-
 @media (max-width: 768px) {
   .grid-container-portfolio {
     grid-template-columns: 50% 50%;
@@ -384,21 +380,6 @@ hr {
   margin-bottom: 3rem;
 }
 
-.botonesToggle ul {
-  padding: 0;
-}
-
-#botonesToggle {
-  display: none;
-  text-align: center;
-}
-#botonesToggle .row {
-  display: block;
-}
-#botonesToggle button {
-  margin-top: 2em;
-}
-
 .exp1 {
   width: 100%;
   background-color: green !important;
@@ -415,6 +396,10 @@ hr {
   width: 100%;
   background-color: green !important;
   color: white !important;
+}
+
+#behance:hover {
+  background: #008500 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
