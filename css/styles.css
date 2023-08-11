@@ -225,6 +225,10 @@ footer {
   background-color: #1F9B00;
 }
 
+#indexMain {
+  margin-top: 7rem;
+}
+
 #form-contacto {
   padding-top: 8em;
   width: 50%;
@@ -302,11 +306,6 @@ hr {
 }
 .proyecto a img {
   width: 85%;
-}
-
-.button {
-  width: 100%;
-  text-align: center;
 }
 
 #behance:hover {
