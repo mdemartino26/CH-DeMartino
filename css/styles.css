@@ -55,6 +55,7 @@ h1 {
   width: 100%;
   flex-flow: wrap;
   justify-content: space-around;
+  margin-bottom: 0;
 }
 #menu ul li {
   vertical-align: middle;
@@ -103,11 +104,6 @@ h5 {
 h6 {
   font-size: 0.75rem !important;
   font-style: italic;
-}
-
-.button {
-  width: 100%;
-  text-align: center;
 }
 
 footer {
