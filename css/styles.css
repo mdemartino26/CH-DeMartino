@@ -380,6 +380,10 @@ hr {
   margin-bottom: 3rem;
 }
 
+#error {
+  text-align: center;
+}
+
 .exp1 {
   width: 100%;
   background-color: green !important;
