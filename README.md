@@ -1,5 +1,5 @@
 Portfolio Personal
-Este es el repositorio del proyecto Portfolio Personal(PF-DeMartino), creado como parte del curso de Desarrollo Web en CoderHouse. El objetivo de este proyecto es desarrollar mi propio sitio web personal para mostrar mis habilidades, proyectos y experiencia en el ámbito de desarrollo web.
+Este es el repositorio del proyecto Portfolio Personal(PF+DeMartino), creado como parte del curso de Desarrollo Web en CoderHouse. El objetivo de este proyecto es desarrollar mi propio sitio web personal para mostrar mis habilidades, proyectos y experiencia en el ámbito de desarrollo web.
 
 Tecnologías Utilizadas
 HTML
